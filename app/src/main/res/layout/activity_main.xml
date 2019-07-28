@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:padding="@dimen/default_padding"
+    tools:context="com.wis.activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/detect_layout"
+        style="@style/MainLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/main_image"
+            android:layout_height="@dimen/main_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/face_detect" />
+
+        <TextView
+            style="@style/MainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detect" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/compare_layout"
+        style="@style/MainLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/main_image"
+            android:layout_height="@dimen/main_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/face_compare" />
+
+        <TextView
+            style="@style/MainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/face_compare" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/manage_layout"
+        style="@style/MainLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/main_image"
+            android:layout_height="@dimen/main_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/face_manage" />
+
+        <TextView
+            style="@style/MainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/face_manage" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tip_layout"
+        style="@style/MainLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vaidate_time"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

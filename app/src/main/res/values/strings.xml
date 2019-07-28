@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">千搜人脸识别</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="img_local">本地选择</string>
+    <string name="img_take">拍照上传</string>
+    <string name="execute">比对</string>
+    <string name="result">比对结果</string>
+    <string name="detect">动态人脸识别(1:N)</string>
+    <string name="snapshot">拍照</string>
+    <string name="face_manage">人脸管理</string>
+    <string name="face_add">添加人脸</string>
+    <string name="face_name">姓名</string>
+    <string name="face_name_hint">请输入姓名</string>
+    <string name="face_about">添加说明</string>
+    <string name="match">正在匹配</string>
+    <string name="face_compare">人脸比对(1:1)</string>
+    <string name="camera_switch">切换摄像头</string>
+    <string name="activity_guide">引导页</string>
+    <string name="download_model">点击下载模型</string>
+    <string name="vaidate_time">20170930前有效期</string>
+</resources>

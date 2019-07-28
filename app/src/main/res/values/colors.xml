@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="ctransparent">#00000000</color>
+
+    <color name="pink">#FF6EB4</color>
+    <color name="red">#FF3030</color>
+    <color name="orange">#FF7F24</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="brown">#D2691E</color>
+    <color name="purple">#B23AEE</color>
+    <color name="green">#76EE00</color>
+    <color name="blue">#436EEE</color>
+    <color name="blue_light">#1E90FF</color>
+    <color name="blue_mix">#20B2AA</color>
+    <color name="bg">#EBEBEB</color>
+    <color name="grey_light">#D4D4D4</color>
+    <color name="grey">#CCCCCC</color>
+    <color name="text_tab">#8a8a8a</color>
+    <color name="coin">#eb4f38</color>
+
+    <color name="red_dark_primary_color">#D32F2F</color>
+    <color name="red_primary_color">#F44336</color>
+    <color name="red_light_primary_color">#FFCDD2</color>
+    <color name="red_text_icon_color">#FFFFFF</color>
+
+    <color name="blue_primary_color">#2196F3</color>
+    <color name="blue_light_primary_color">#BBDEFB</color>
+    <color name="blue_dark_primary_color">#1976D2</color>
+    <color name="blue_text_icon_color">#FFFFFF</color>
+
+    <color name="green_dark_primary_color">#388E3C</color>
+    <color name="green_primary_color">#4CAF50</color>
+    <color name="green_light_primary_color">#C8E6C9</color>
+    <color name="green_text_icon_color">#FFFFFF</color>
+</resources>
